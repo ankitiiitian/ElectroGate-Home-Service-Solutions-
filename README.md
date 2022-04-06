@@ -1,4 +1,4 @@
-# SE_GroupProject
+# ElectroGate (Home Service Solutions)
 *Group No : 5*
 
 Group Members :
