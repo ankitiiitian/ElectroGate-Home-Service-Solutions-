@@ -1,0 +1,126 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"); */
+
+.video_form {
+    display: flex;
+    height: 105vh;
+    background: radial-gradient(circle,rgb(47, 49, 145) 0%,#111 100%);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .video_form_logo{
+      margin-top: 40px;
+      align-items: center;
+      width: 100px;
+      margin-right: auto;
+      margin-left: auto;
+  }
+  
+  .video_form_button {
+    font-family: "Inter", sans-serif;
+  } 
+  
+  .video_form_container{
+      align-items: center;
+      justify-content: center;
+     
+  }
+  
+  /* Contact.js */
+  .video_form_form {
+      background: #fff;
+      justify-content: center;
+      align-items: center;
+      min-width: 20vmax;
+      margin: 3vmax;
+      width: 30vmax;
+      max-width: 500px;
+      border-style: groove;
+      border-radius: 6px;
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .video_form_form > h1 {
+      padding: 5px;
+      font-size: 2vmax;
+    margin-bottom: 2vmax;
+  }
+  
+  .video_form_control{
+      padding: 5px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(0, 0, 0);
+   
+    background: rgb(186, 183, 183);
+    font-size: 16px;
+    color: rgb(0, 0, 32);
+    outline: none;
+    width: 200px;
+  
+  }
+  
+  .video_form_form > textarea {
+    padding: 20px;
+    border-radius: 6px;
+    width: 13vmax;
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+   
+    background: rgb(255, 255, 255);
+    font-size: 16px;
+    color: rgb(0, 0, 32);
+    outline: none;
+  } 
+   
+  /* .ins_form_form > input:focus>textarea:focus {
+    border: 1px solid rgb(0, 0, 196);
+  } */
+  
+  .video_form_form > textarea {
+    padding: 10px;
+    height: 100px;
+    max-width: 400px;
+    min-height: 80px;
+  }
+  
+  .video_form_form > label {
+    padding-bottom: 10px;
+    color: rgb(0, 0, 32);
+    font-weight: bold;
+  }
+  
+  .video_form_but{
+    padding: 15px;
+    width: 10vmax;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 1.2vmax;
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    margin-top: 10px;
+  }
+  
+  .video_form_button {
+    background-color: rgb(0, 0, 196);
+  } 
+  
+  .video_form_lastline{
+      font-size: 1.2vmax;
+      text-align: center;
+      color: #fff;
+  }
+
+  .video_image{
+    width: 200vh;
+    height: 80vh;
+    z-index: -1;
+    /* margin-bottom: -150px; */
+    mask-image: linear-gradient(to bottom , rgba(0 , 0 , 0, 1), rgba( 0, 0, 0, 0));
+}

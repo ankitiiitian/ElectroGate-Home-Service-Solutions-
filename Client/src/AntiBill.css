@@ -1,0 +1,45 @@
+.antibill
+{
+    background: #fff;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.antiBill_container{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+    position: relative;
+    background: radial-gradient(circle,rgb(47 49 145) 0%,#111 100%);
+    text-align: center;
+}
+
+.antibill_static{
+    margin: 0;
+    padding: 32px 24px;
+    background-color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    border-bottom: 1px solid rgb(3, 20, 95);
+}
+
+.antibill_heading{
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.antibill_row{
+    color: #051663;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 32px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid rgb(3, 20, 95);
+    width: 1136px;
+    margin: 32px auto ;
+    text-align: left;
+}
