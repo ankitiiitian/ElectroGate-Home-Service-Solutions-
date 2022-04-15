@@ -18,4 +18,4 @@ ReactJS, NodeJS, ExpressJS
 Database:
 Firebase
 
-Testing : Unit Testing Firebase with Jest
+Testing : Unit Testing Firebase with Jest and Black-Box Testing 
